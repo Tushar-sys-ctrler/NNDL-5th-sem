@@ -1,0 +1,27 @@
+# Virtual Environment (Never push .venv to GitHub!)
+.venv/
+venv/
+env/
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Raw Dataset Folders (if copied locally)
+PlantVillage/
+dataset/
+data/
+
+# OS & Editor Files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Note: crop_disease_cnn.pth (~33 MB) is under GitHub's 100 MB limit, 
+# so we DO NOT ignore it. That way your teammates can clone and run app.py immediately!
+# If you ever want to ignore .pth files in the future, uncomment the line below:
+# *.pth
